@@ -4,21 +4,25 @@ body * {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 
 body {
    box-sizing: border-box;
    border: solid 3px #CCC;
-   width: 300px;
-   height: 450px;
+   width: 20vw;
    margin: 3vh; 
 }
 
 
-h2, p, button {
-    margin: 15px; 
+h2, p {
+    margin: 6%; 
+}
+
+button {
+    margin-left: 6%;
+    margin-bottom: 6%;
 }
 
 img {

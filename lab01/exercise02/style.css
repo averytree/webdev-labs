@@ -3,22 +3,54 @@ body * {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Shizuru', cursive;
 }
 
-/*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
-*/
+section {
+    box-sizing: border-box;
+    border: solid 3px #CCC;
+    width: 20vw;
+    margin: 3vh; 
+ }
+ 
+ 
+ h2, p {
+     margin: 6%; 
+ }
+ 
+ button {
+     margin-left: 6%;
+     margin-bottom: 6%;
+ }
+ 
+ img {
+     width: 100%;
+ }
 
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    main{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section{
+        width : 40%;
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    main{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    section{
+        width : 90%;
+    }
     
 }
